@@ -1,4 +1,4 @@
-# Apache_Web_Server_Docker_Image
+# Containerizing Apache Web Server using Docker Image
 
 # Build Instructions
 
@@ -59,4 +59,19 @@ You should see the Apache default page, indicating that your Docker container is
  
  ![Screenshot](apache_working_4.png)
 
+# Support and Contact
+
+If you have any questions, please feel free to contact me at [vasudevanswornampillai@gmail.com].
+
+# License
+
+This project is licensed under the **Apache 2.0 License**.
+
+# Share with the community
+
+If you find this project interesting or helpful, don't hesitate to share with your community! Let's learn and grow together!
+
+# Conclusion
+
+In this project, we’ve developed a docker image for containerizing apache web servers. The model, a beacon of performance, awaits those go into the beautiful world of Devops.
  
