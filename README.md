@@ -2,19 +2,19 @@
 
 # Build Instructions
 
-1. Create a New Instance
+**1. Create a New Instance**
 
 Once the playground instance is ready, click on the "Add New Instance" button on the left sidebar.
 This will create a new Docker host for you to work with.
 
-2. Create a Dockerfile
+**2. Create a Dockerfile**
 
 In the terminal window of the new instance, create a new file called Dockerfile by running the following command:
 
                         vi Dockerfile
 This will open the nano text editor, where you can start writing your Dockerfile instructions.
 
-3. Write your Dockerfile
+**3. Write your Dockerfile**
 
 In the editor, specify the instructions for building your Docker image. Here's a simple example Dockerfile that creates an Ubuntu-based image with the Apache web server installed:
 
@@ -24,7 +24,7 @@ In the editor, specify the instructions for building your Docker image. Here's a
                           CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
                           Press :wq to write and quit the dockerfile
 
-4. Build the Docker Image
+**4. Build the Docker Image**
 
 In the terminal, run the following command to build the Docker image from the Dockerfile:
 
@@ -33,21 +33,21 @@ Replace my-apache-image with your desired image name.
 The . at the end of the command specifies the current directory as the build context.
 Docker will start building the image based on the instructions in your Dockerfile.
 
-5. Verify the Built Image
+**5. Verify the Built Image**
 
 After the build process completes, you can verify that the image was created by running:
 
                       docker images
 You should see your newly built image listed in the output.
 
-6. Run a Container from the Image
+**6. Run a Container from the Image**
 
 To run a container based on the image you just built, use the following command:
 
 docker run -d -p 80:80 my-apache-image
 This will start a new container in detached mode (-d) and map port 80 of the host to port 80 of the container (-p 80:80).
 
-7. Test the Container
+**7. Test the Container**
 
 Find the IP address of the Docker host by running:
 
