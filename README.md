@@ -54,3 +54,10 @@ Find the IP address of the Docker host by running:
                       ip addr show
 Open a web browser and navigate to http://<host_ip>, replacing <host_ip> with the IP address you obtained.
 You should see the Apache default page, indicating that your Docker container is running and serving the Apache web server.
+
+
+# Screenshots
+
+ The following screenshots visually demonstrates the successful execution of my project
+
+ 
