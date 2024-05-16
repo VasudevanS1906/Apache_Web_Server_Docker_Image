@@ -1,5 +1,7 @@
 # Containerizing Apache Web Server using Docker Image
 
+Building Docker images for Apache web servers provides consistent and portable environments, efficient resource utilization, simplified deployment and maintenance, and seamless integration with DevOps practices like CI/CD pipelines.
+
 # Build Instructions
 
 **1. Create a New Instance**
