@@ -54,7 +54,7 @@ You should see the Apache default page, indicating that your Docker container is
 
  The following screenshots visually demonstrates the successful execution of my project
 
- ![Screenshot](apache_working_1.png)
+ ![Screenshot](apacher_working_1.png)
 
  
  ![Screenshot](apache_working_2.png)
