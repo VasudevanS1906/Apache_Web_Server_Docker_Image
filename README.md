@@ -2,6 +2,15 @@
 
 Building Docker images for Apache web servers provides consistent and portable environments, efficient resource utilization, simplified deployment and maintenance, and seamless integration with DevOps practices like CI/CD pipelines.
 
+# Screenshots
+
+ The following screenshots visually demonstrates the successful execution of my project
+
+ ![Screenshot](apache_working_3.png)
+
+ 
+ ![Screenshot](apache_working_4.png)
+
 # Build Instructions
 
 **1. Create a New Instance**
@@ -51,15 +60,6 @@ Find the IP address of the Docker host by running:
 
 You should see the Apache default page, indicating that your Docker container is running and serving the Apache web server.
 
-
-# Screenshots
-
- The following screenshots visually demonstrates the successful execution of my project
-
- ![Screenshot](apache_working_3.png)
-
- 
- ![Screenshot](apache_working_4.png)
 
 # Support and Contact
 
